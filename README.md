@@ -19,8 +19,8 @@ Howdy miner! Mine the gems in  your quarry until there are none left. But be car
 - JQuery
 
 # code snippets
+JQuery onclick function that keeps track of the addition in console while displaying subtraction to user, also checks if the game has been won or lost on that click.
 ```
-//JQuery onclick function that keeps track of the addition in console while displaying subtraction to user, also checks if the game has been won or lost on that click.
 $("#first-jewel").on("click", function() {
     userTotal = userTotal + firstValue;
     console.log("New userTotal= " + userTotal);
