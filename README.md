@@ -14,6 +14,7 @@ Howdy miner! Mine the gems in  your quarry until there are none left. But be car
 
 - HTML
 - CSS
+- Google Fonts
 - Javascript
 - JQuery
 
