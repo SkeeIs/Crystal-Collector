@@ -1,0 +1,59 @@
+body {
+    background-image: url(../images/quarry_background_by_mandydax-d4ztbbv.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1 {
+    font-family: 'Chela One', cursive;
+    font-size: 60px;
+    text-align: center;
+}
+
+#instructions {
+    font-family: 'Chela One', cursive;
+    font-size: larger;
+    width: 440px;
+    margin: 15px;
+}
+
+#random-div {
+    font-family: 'Chela One', cursive;
+    font-size: 100px;  
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+
+#wins-div {
+    font-family: 'Chela One', cursive;
+    font-size: x-large;
+    margin: 15px;
+}
+
+#losses-div {
+    font-family: 'Chela One', cursive;
+    font-size: x-large;
+    margin: 15px;
+}
+
+#first-jewel {
+    margin-left: 480px;
+    margin-top: 10px;
+    float: left;
+}
+
+#second-jewel {
+    margin-top: 10px;
+    float: left;
+}
+
+#third-jewel {
+    margin-top: 10px;
+    float: left;
+}
+
+#fourth-jewel {
+    margin-top: 10px;
+    float: left;
+}

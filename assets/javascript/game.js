@@ -30,7 +30,7 @@
         thirdValue = values[2];
         fourthValue = values[3];
         targetNumber = bigNumber();
-        $("#random-div").html(targetNumber);
+        $("#big-num").html(targetNumber);
     }
 //function to update the wins & losses
     function updateText() {
@@ -64,7 +64,7 @@ $(document).ready(function() {
     console.log("New userTotal= " + userTotal);
     
     targetNumber = targetNumber - firstValue;
-    $("#random-div").text(targetNumber); 
+    $("#big-num").text(targetNumber); 
           //sets win/lose conditions
         if (targetNumber === 0) {
           win();
@@ -80,7 +80,7 @@ $(document).ready(function() {
     console.log("New userTotal= " + userTotal);
     
     targetNumber = targetNumber - secondValue;
-    $("#random-div").text(targetNumber);
+    $("#big-num").text(targetNumber);
         
         if (targetNumber === 0) {
           win();
@@ -95,7 +95,7 @@ $(document).ready(function() {
     userTotal = userTotal + thirdValue;
     console.log("New userTotal= " + userTotal);
     targetNumber = targetNumber - thirdValue;
-    $("#random-div").text(targetNumber);
+    $("#big-num").text(targetNumber);
         
         if (targetNumber === 0) {
           win();
@@ -110,7 +110,7 @@ $(document).ready(function() {
     userTotal = userTotal + fourthValue;
     console.log("New userTotal= " + userTotal);
     targetNumber = targetNumber - fourthValue;
-    $("#random-div").text(targetNumber);
+    $("#big-num").text(targetNumber);
         if (targetNumber === 0) {
           win();
           reset();

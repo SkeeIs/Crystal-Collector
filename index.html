@@ -5,34 +5,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Crystal Count Down</title>
-
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <link href="https://fonts.googleapis.com/css?family=Chela+One" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+   
 </head>
 <body>
   <div class = "container">
     
-    <div><h1>Crystal Count Down</h1></div>
+    <div><h1>Miner's Delight</h1></div>
 
-    <div id = "instructions"><p>Your quarry has a random amount of gems to be mined. Each type of gem in your quarry has a unique & random value that is unknown to you. Clicking on the gems will mine them from the quarry reducing the total amount of gems left. Your goal is to mine exactly the amount of gems available; if you overmine your quarry you lose!</p></div>
+    <div id = "instructions"><p>Howdy 49er! This, here, quarry is your claim. You find a gem vein so big you should be able to get an ice block, a donkey, AND a dozen rasher of bacon in trade. You lucky So and So! Each type of gem in the vein has a unique & random value that is unknown to you. This vein isn't infinite though; if you over-mine it you go bankrupt & loose your claim! Clicking on the gems will mine them from the vein reducing the total amount of gems left. Good luck & be careful with that, there, dynamite!</p></div>
 
-    <div id = "random-div"> </div>
-
-    <div id = "first-jewel"><img src="assets/images/green.gif" alt="green gem" height="90" width="90">
-    </div>
-
-    <div id = "second-jewel"><img src="assets/images/orange.gif" alt="orange gem" height="90" width="90">
-    </div>
-
-    <div id = "third-jewel"><img src="assets/images/white.gif" alt="Smiley face" height="90" width="90">
-    </div>
-
-    <div id = "fourth-jewel"><img src="assets/images/yellow.gif" alt="Smiley face" height="90" width="90">
-    </div>
+    <div id = "random-div"><img id = "boom" src="assets/images/bigOpal.jpg" alt="big gem" height="150" width="150"><span id = "big-num"> </span></div>
 
     <div id = "wins-div">Wins: <span id = "wins"> </span></div>
 
     <div id = "losses-div">Losses: <span id = "losses"> </span></div>
 
-  
+    <div id = "first-jewel"><img src="assets/images/green.gif" alt="green gem" height="100" width="100">
+    </div>
+
+    <div id = "second-jewel"><img src="assets/images/orange.gif" alt="orange gem" height="100" width="100">
+    </div>
+
+    <div id = "third-jewel"><img src="assets/images/white.gif" alt="Smiley face" height="100" width="100">
+    </div>
+
+    <div id = "fourth-jewel"><img src="assets/images/yellow.gif" alt="Smiley face" height="100" width="100">
+    </div>
 </div>
 
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
